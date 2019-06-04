@@ -12,7 +12,7 @@ import tuto.eclipse.jal.selenium.pageObjects.homePage.HomePageIDs;
 public class HomePageNG {
 
 	// CONSTANTS for the SELECTORS are defined in pageObjects.HomePage.HomePageIDs
-
+ 
 	/*
 	 * ACTIONS
 	 */

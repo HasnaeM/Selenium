@@ -16,11 +16,12 @@ public class TestBookingJAL1 extends BookingFlow{
 	@Test
 	public void testBooking1() {
 		this.run(); //run default tests from the BookingFlow
-		MyDriver.quitDriver();
+		
+		//MyDriver.quitDriver();
 	}
 	
-	@Override
+	/*@Override
 	protected void run() {
 		
-	}
+	}*/
 }

@@ -14,14 +14,14 @@ public class MyDriver {
 	private static final String EDGE = "edge";
 	private static final String PATH_FIREFOX_DRIVER = "C:\\GeckoDriver.exe";
 	private static final String PATH_EDGE_DRIVER = "C:\\edgedriver.exe";
-	private static final String PATH_CHROME_DRIVER = "C:\\Users\\formation\\Documents\\ChromeDrivers\\chromedriver.exe";
+	private static final String PATH_CHROME_DRIVER = "C:\\Users\\formation\\Downloads\\chromedriver.exe";
 	public static WebDriver driver;
 //	private final String defaultBrowser = "chrome";
 
 	public MyDriver(String browser) {
 		super();
-		try {
-			switch (browser) {
+		try { 
+			switch (browser) { 
 			case FIREFOX:
 				System.setProperty("webdriver.firefox.marionette", PATH_FIREFOX_DRIVER);
 				System.out.println("Loading Firefox WebDriver");

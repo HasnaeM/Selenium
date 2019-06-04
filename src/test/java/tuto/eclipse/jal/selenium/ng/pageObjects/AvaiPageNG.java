@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import tuto.eclipse.jal.selenium.pageObjects.avaiPage.AvaiPageIDs;
 
-public class AvaiPageNG {
+public class AvaiPageNG { 
 	
 	// CHECKs
 	

@@ -17,5 +17,6 @@ public class AllPages {
 		WebDriverWait wait = new WebDriverWait(MyDriver.driver, 10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(id)));
 	}
-
+ 
 }
+
