@@ -1,6 +1,6 @@
 package tuto.eclipse.jal.selenium.pageObjects.homePage;
 
-public abstract class HomePageIDs {  
+public abstract class HomePageIDs {
 	
 	public static final String DEPARTURE_FROM_AREA_ID = "mdlDepArea1";
 //	public static final String DEPARTURE_FROM_AREA_SELECTED_VALUE_ = "mdlDepArea1";
